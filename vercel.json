@@ -1,10 +1,1 @@
-{
-  "redirects": [
-    {
-      "source": "/:path(.*)",
-      "has": [{ "type": "host", "value": "www.bestformy.com" }],
-      "destination": "https://bestformy.com/:path",
-      "permanent": true
-    }
-  ]
-}
+{}
