@@ -1,0 +1,12 @@
+[
+  { "slug": "landscaping", "name": "Landscaping", "description": "Lawn care, garden design, and outdoor maintenance businesses." },
+  { "slug": "plumbing", "name": "Plumbing", "description": "Residential and commercial plumbing service providers." },
+  { "slug": "electrical", "name": "Electrical", "description": "Electricians and electrical contracting companies." },
+  { "slug": "hvac", "name": "HVAC", "description": "Heating, ventilation, and air conditioning service businesses." },
+  { "slug": "roofing", "name": "Roofing", "description": "Roofing installation, repair, and maintenance companies." },
+  { "slug": "dental", "name": "Dental", "description": "Dental practices, clinics, and oral health providers." },
+  { "slug": "real-estate", "name": "Real Estate", "description": "Real estate agents, brokerages, and property management firms." },
+  { "slug": "fitness", "name": "Fitness", "description": "Gyms, personal trainers, and fitness studio operators." },
+  { "slug": "construction", "name": "Construction", "description": "General contractors and construction companies." },
+  { "slug": "restaurants", "name": "Restaurants", "description": "Restaurants, cafes, and food service businesses." }
+]

@@ -1,0 +1,25 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --color-primary: #1e3a5f;
+    --color-accent: #f59e0b;
+  }
+}
+
+@layer components {
+  .score-badge {
+    @apply inline-flex items-center justify-center rounded-lg font-bold text-white px-3 py-1 text-sm;
+  }
+  .score-high {
+    @apply bg-green-600;
+  }
+  .score-mid {
+    @apply bg-yellow-500;
+  }
+  .score-low {
+    @apply bg-red-500;
+  }
+}

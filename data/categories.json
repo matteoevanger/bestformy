@@ -1,0 +1,27 @@
+[
+  {
+    "slug": "crm",
+    "name": "CRM",
+    "description": "Customer Relationship Management software to manage leads, contacts, and sales pipelines."
+  },
+  {
+    "slug": "project-management",
+    "name": "Project Management",
+    "description": "Tools to plan, track, and collaborate on projects and tasks with your team."
+  },
+  {
+    "slug": "invoicing",
+    "name": "Invoicing",
+    "description": "Software to create, send, and track invoices and get paid faster."
+  },
+  {
+    "slug": "email-marketing",
+    "name": "Email Marketing",
+    "description": "Platforms to build email lists, design campaigns, and automate marketing workflows."
+  },
+  {
+    "slug": "accounting",
+    "name": "Accounting",
+    "description": "Financial management software for bookkeeping, expense tracking, and tax preparation."
+  }
+]

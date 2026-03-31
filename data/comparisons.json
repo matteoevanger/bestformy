@@ -1,0 +1,130 @@
+[
+  {
+    "slug": "hubspot-vs-salesforce",
+    "toolA": "hubspot",
+    "toolB": "salesforce",
+    "verdict": "HubSpot is better for small to mid-size businesses wanting an all-in-one solution with a free tier, while Salesforce is the choice for enterprises needing maximum customization and scalability.",
+    "featureComparison": [
+      { "feature": "Ease of Use", "toolA": 9, "toolB": 6 },
+      { "feature": "Customization", "toolA": 7, "toolB": 10 },
+      { "feature": "Free Tier", "toolA": 10, "toolB": 0 },
+      { "feature": "Integrations", "toolA": 9, "toolB": 10 },
+      { "feature": "Reporting", "toolA": 8, "toolB": 10 },
+      { "feature": "Mobile App", "toolA": 8, "toolB": 8 },
+      { "feature": "Automation", "toolA": 8, "toolB": 10 },
+      { "feature": "Value for Money", "toolA": 8, "toolB": 6 }
+    ]
+  },
+  {
+    "slug": "hubspot-vs-pipedrive",
+    "toolA": "hubspot",
+    "toolB": "pipedrive",
+    "verdict": "HubSpot offers a broader feature set with marketing tools, while Pipedrive excels at simplicity and sales-focused pipeline management at a lower price point.",
+    "featureComparison": [
+      { "feature": "Ease of Use", "toolA": 8, "toolB": 9 },
+      { "feature": "Sales Pipeline", "toolA": 8, "toolB": 10 },
+      { "feature": "Marketing Tools", "toolA": 10, "toolB": 4 },
+      { "feature": "Free Tier", "toolA": 10, "toolB": 0 },
+      { "feature": "Pricing Value", "toolA": 7, "toolB": 9 },
+      { "feature": "Mobile App", "toolA": 8, "toolB": 9 },
+      { "feature": "Reporting", "toolA": 8, "toolB": 7 },
+      { "feature": "Integrations", "toolA": 9, "toolB": 7 }
+    ]
+  },
+  {
+    "slug": "asana-vs-monday",
+    "toolA": "asana",
+    "toolB": "monday",
+    "verdict": "Asana is better for teams that want structured task management with powerful automation, while monday.com shines with its visual flexibility and customizable workflows.",
+    "featureComparison": [
+      { "feature": "Ease of Use", "toolA": 8, "toolB": 9 },
+      { "feature": "Customization", "toolA": 7, "toolB": 9 },
+      { "feature": "Task Management", "toolA": 10, "toolB": 8 },
+      { "feature": "Visual Design", "toolA": 8, "toolB": 10 },
+      { "feature": "Automations", "toolA": 9, "toolB": 9 },
+      { "feature": "Reporting", "toolA": 8, "toolB": 8 },
+      { "feature": "Free Tier", "toolA": 8, "toolB": 5 },
+      { "feature": "Integrations", "toolA": 9, "toolB": 9 }
+    ]
+  },
+  {
+    "slug": "trello-vs-clickup",
+    "toolA": "trello",
+    "toolB": "clickup",
+    "verdict": "Trello wins on simplicity and ease of use for small projects, while ClickUp is the power user's choice with far more features at competitive pricing.",
+    "featureComparison": [
+      { "feature": "Ease of Use", "toolA": 10, "toolB": 7 },
+      { "feature": "Features", "toolA": 5, "toolB": 10 },
+      { "feature": "Free Tier", "toolA": 8, "toolB": 9 },
+      { "feature": "Customization", "toolA": 5, "toolB": 9 },
+      { "feature": "Time Tracking", "toolA": 3, "toolB": 9 },
+      { "feature": "Docs", "toolA": 3, "toolB": 9 },
+      { "feature": "Mobile App", "toolA": 8, "toolB": 6 },
+      { "feature": "Performance", "toolA": 9, "toolB": 6 }
+    ]
+  },
+  {
+    "slug": "quickbooks-vs-xero",
+    "toolA": "quickbooks",
+    "toolB": "xero",
+    "verdict": "QuickBooks is the US market leader with the broadest accountant network and integrations, while Xero offers unlimited users, a cleaner interface, and better international support.",
+    "featureComparison": [
+      { "feature": "Ease of Use", "toolA": 7, "toolB": 9 },
+      { "feature": "Integrations", "toolA": 10, "toolB": 7 },
+      { "feature": "Invoicing", "toolA": 9, "toolB": 9 },
+      { "feature": "Reporting", "toolA": 9, "toolB": 8 },
+      { "feature": "Multi-currency", "toolA": 7, "toolB": 10 },
+      { "feature": "User Limit", "toolA": 6, "toolB": 10 },
+      { "feature": "Payroll", "toolA": 9, "toolB": 6 },
+      { "feature": "Value for Money", "toolA": 7, "toolB": 8 }
+    ]
+  },
+  {
+    "slug": "mailchimp-vs-convertkit",
+    "toolA": "mailchimp",
+    "toolB": "convertkit",
+    "verdict": "Mailchimp is better for businesses wanting visual email design and broad marketing features, while Kit (ConvertKit) is purpose-built for creators who prioritize deliverability and automation.",
+    "featureComparison": [
+      { "feature": "Email Design", "toolA": 10, "toolB": 6 },
+      { "feature": "Automations", "toolA": 7, "toolB": 10 },
+      { "feature": "Ease of Use", "toolA": 8, "toolB": 9 },
+      { "feature": "Deliverability", "toolA": 7, "toolB": 9 },
+      { "feature": "Landing Pages", "toolA": 8, "toolB": 8 },
+      { "feature": "Free Tier", "toolA": 7, "toolB": 8 },
+      { "feature": "Reporting", "toolA": 9, "toolB": 7 },
+      { "feature": "Integrations", "toolA": 9, "toolB": 7 }
+    ]
+  },
+  {
+    "slug": "freshbooks-vs-wave",
+    "toolA": "freshbooks",
+    "toolB": "wave",
+    "verdict": "FreshBooks offers a more polished experience with better time tracking and client management, while Wave is hard to beat for solopreneurs on a budget since core features are completely free.",
+    "featureComparison": [
+      { "feature": "Invoicing", "toolA": 10, "toolB": 8 },
+      { "feature": "Price", "toolA": 5, "toolB": 10 },
+      { "feature": "Time Tracking", "toolA": 9, "toolB": 3 },
+      { "feature": "Accounting", "toolA": 7, "toolB": 8 },
+      { "feature": "Mobile App", "toolA": 9, "toolB": 7 },
+      { "feature": "Client Portal", "toolA": 9, "toolB": 5 },
+      { "feature": "Ease of Use", "toolA": 9, "toolB": 8 },
+      { "feature": "Support", "toolA": 8, "toolB": 5 }
+    ]
+  },
+  {
+    "slug": "salesforce-vs-zoho-crm",
+    "toolA": "salesforce",
+    "toolB": "zoho-crm",
+    "verdict": "Salesforce is the enterprise standard with unmatched customization, while Zoho CRM delivers impressive features at a fraction of the cost for small and mid-size businesses.",
+    "featureComparison": [
+      { "feature": "Ease of Use", "toolA": 5, "toolB": 7 },
+      { "feature": "Customization", "toolA": 10, "toolB": 8 },
+      { "feature": "AI Features", "toolA": 9, "toolB": 8 },
+      { "feature": "Value for Money", "toolA": 4, "toolB": 9 },
+      { "feature": "Integrations", "toolA": 10, "toolB": 7 },
+      { "feature": "Reporting", "toolA": 10, "toolB": 7 },
+      { "feature": "Mobile App", "toolA": 8, "toolB": 7 },
+      { "feature": "Support", "toolA": 8, "toolB": 6 }
+    ]
+  }
+]

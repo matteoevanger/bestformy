@@ -1,0 +1,301 @@
+[
+  {
+    "slug": "hubspot",
+    "name": "HubSpot",
+    "description": "All-in-one CRM platform with marketing, sales, and service hubs for growing businesses.",
+    "category": "crm",
+    "pricing": [
+      { "tier": "Free", "price": "$0/mo", "features": ["Contact management", "Email tracking", "Deal pipeline", "Meeting scheduling"] },
+      { "tier": "Starter", "price": "$20/mo", "features": ["Everything in Free", "Email marketing", "Ad management", "Landing pages"] },
+      { "tier": "Professional", "price": "$890/mo", "features": ["Everything in Starter", "Marketing automation", "Custom reporting", "A/B testing"] },
+      { "tier": "Enterprise", "price": "$3,600/mo", "features": ["Everything in Professional", "Predictive lead scoring", "Custom objects", "Hierarchical teams"] }
+    ],
+    "features": ["Contact Management", "Email Tracking", "Deal Pipeline", "Marketing Automation", "Reporting & Analytics", "Meeting Scheduling", "Live Chat", "Task Management"],
+    "pros": ["Generous free tier", "Intuitive interface", "Excellent integrations ecosystem", "Strong marketing tools"],
+    "cons": ["Expensive at higher tiers", "Steep learning curve for advanced features", "Limited customization on free plan"],
+    "score": 9.2,
+    "affiliateUrl": "#",
+    "logo": "/logos/hubspot.svg"
+  },
+  {
+    "slug": "salesforce",
+    "name": "Salesforce",
+    "description": "The world's leading CRM platform with enterprise-grade features and extensive customization.",
+    "category": "crm",
+    "pricing": [
+      { "tier": "Essentials", "price": "$25/user/mo", "features": ["Account management", "Lead management", "Opportunity tracking"] },
+      { "tier": "Professional", "price": "$80/user/mo", "features": ["Everything in Essentials", "Pipeline management", "Forecast management"] },
+      { "tier": "Enterprise", "price": "$165/user/mo", "features": ["Everything in Professional", "Workflow automation", "Advanced reporting"] },
+      { "tier": "Unlimited", "price": "$330/user/mo", "features": ["Everything in Enterprise", "AI-powered insights", "24/7 support"] }
+    ],
+    "features": ["Lead Management", "Opportunity Tracking", "Workflow Automation", "Advanced Reporting", "AppExchange Marketplace", "Einstein AI", "Custom Objects", "Territory Management"],
+    "pros": ["Extremely customizable", "Massive app ecosystem", "Industry-leading features", "Scalable for any size"],
+    "cons": ["High cost", "Complex setup and administration", "Can be overwhelming for small teams"],
+    "score": 9.0,
+    "affiliateUrl": "#",
+    "logo": "/logos/salesforce.svg"
+  },
+  {
+    "slug": "pipedrive",
+    "name": "Pipedrive",
+    "description": "Sales-focused CRM designed for small teams who want a simple, visual pipeline.",
+    "category": "crm",
+    "pricing": [
+      { "tier": "Essential", "price": "$14/user/mo", "features": ["Pipeline management", "Deal tracking", "Contact management"] },
+      { "tier": "Advanced", "price": "$34/user/mo", "features": ["Everything in Essential", "Email sync", "Workflow automation"] },
+      { "tier": "Professional", "price": "$49/user/mo", "features": ["Everything in Advanced", "Revenue forecasting", "Custom fields"] },
+      { "tier": "Power", "price": "$64/user/mo", "features": ["Everything in Professional", "Phone support", "Project planning"] }
+    ],
+    "features": ["Visual Sales Pipeline", "Deal Tracking", "Email Integration", "Activity Reminders", "Reporting", "Workflow Automation", "Mobile App", "Web Forms"],
+    "pros": ["Very easy to use", "Affordable pricing", "Great visual pipeline", "Excellent mobile app"],
+    "cons": ["Limited marketing features", "Basic reporting on lower tiers", "Fewer integrations than HubSpot"],
+    "score": 8.7,
+    "affiliateUrl": "#",
+    "logo": "/logos/pipedrive.svg"
+  },
+  {
+    "slug": "zoho-crm",
+    "name": "Zoho CRM",
+    "description": "Affordable CRM with AI assistant and deep integration with the Zoho ecosystem.",
+    "category": "crm",
+    "pricing": [
+      { "tier": "Free", "price": "$0/mo", "features": ["3 users", "Lead management", "Document sharing"] },
+      { "tier": "Standard", "price": "$14/user/mo", "features": ["Everything in Free", "Scoring rules", "Workflows"] },
+      { "tier": "Professional", "price": "$23/user/mo", "features": ["Everything in Standard", "SalesSignals", "Inventory management"] },
+      { "tier": "Enterprise", "price": "$40/user/mo", "features": ["Everything in Professional", "Zia AI", "Custom modules"] }
+    ],
+    "features": ["Lead Management", "Zia AI Assistant", "Workflow Automation", "Multichannel Communication", "Analytics", "Inventory Management", "Territory Management", "Custom Modules"],
+    "pros": ["Very affordable", "Zia AI included", "Great Zoho ecosystem integration", "Highly customizable"],
+    "cons": ["Interface can feel dated", "Steep learning curve", "Support response times vary"],
+    "score": 8.4,
+    "affiliateUrl": "#",
+    "logo": "/logos/zoho-crm.svg"
+  },
+  {
+    "slug": "asana",
+    "name": "Asana",
+    "description": "Work management platform for teams to organize, track, and manage projects and tasks.",
+    "category": "project-management",
+    "pricing": [
+      { "tier": "Personal", "price": "$0/mo", "features": ["Unlimited tasks", "List view", "Board view", "Calendar view"] },
+      { "tier": "Starter", "price": "$11/user/mo", "features": ["Everything in Personal", "Timeline", "Workflow builder", "Forms"] },
+      { "tier": "Advanced", "price": "$26/user/mo", "features": ["Everything in Starter", "Portfolios", "Goals", "Custom rules"] },
+      { "tier": "Enterprise", "price": "Custom", "features": ["Everything in Advanced", "SAML", "Data export", "Custom branding"] }
+    ],
+    "features": ["Task Management", "Timeline View", "Board View", "Workflow Automation", "Goals & Portfolios", "Forms", "Reporting", "Integrations"],
+    "pros": ["Beautiful interface", "Flexible project views", "Strong workflow automation", "Good free tier"],
+    "cons": ["Can be complex for simple projects", "No built-in time tracking", "Expensive for larger teams"],
+    "score": 9.0,
+    "affiliateUrl": "#",
+    "logo": "/logos/asana.svg"
+  },
+  {
+    "slug": "monday",
+    "name": "monday.com",
+    "description": "Colorful, flexible work OS for managing projects, workflows, and team collaboration.",
+    "category": "project-management",
+    "pricing": [
+      { "tier": "Free", "price": "$0/mo", "features": ["Up to 2 seats", "3 boards", "Unlimited docs"] },
+      { "tier": "Basic", "price": "$9/seat/mo", "features": ["Unlimited boards", "200+ templates", "iOS & Android apps"] },
+      { "tier": "Standard", "price": "$12/seat/mo", "features": ["Everything in Basic", "Timeline & Gantt", "Automations"] },
+      { "tier": "Pro", "price": "$19/seat/mo", "features": ["Everything in Standard", "Time tracking", "Formula column", "Chart view"] }
+    ],
+    "features": ["Customizable Boards", "Gantt Charts", "Automations", "Dashboards", "Time Tracking", "Forms", "Integrations", "Mobile App"],
+    "pros": ["Highly visual and intuitive", "Very customizable", "Great automations", "Strong integrations"],
+    "cons": ["Minimum seat requirements", "Can get pricey", "Learning curve for advanced features"],
+    "score": 8.8,
+    "affiliateUrl": "#",
+    "logo": "/logos/monday.svg"
+  },
+  {
+    "slug": "trello",
+    "name": "Trello",
+    "description": "Simple, Kanban-style project management tool perfect for small teams and personal use.",
+    "category": "project-management",
+    "pricing": [
+      { "tier": "Free", "price": "$0/mo", "features": ["Unlimited cards", "10 boards", "Unlimited storage"] },
+      { "tier": "Standard", "price": "$5/user/mo", "features": ["Everything in Free", "Unlimited boards", "Custom fields", "Advanced checklists"] },
+      { "tier": "Premium", "price": "$10/user/mo", "features": ["Everything in Standard", "Dashboard view", "Timeline view", "Calendar view"] },
+      { "tier": "Enterprise", "price": "$17.50/user/mo", "features": ["Everything in Premium", "Unlimited workspaces", "Organization-wide permissions"] }
+    ],
+    "features": ["Kanban Boards", "Checklists", "Due Dates", "Labels & Filters", "Power-Ups", "Butler Automation", "Calendar View", "Mobile App"],
+    "pros": ["Extremely simple to use", "Great free tier", "Perfect for small projects", "Fun interface"],
+    "cons": ["Limited for complex projects", "Basic reporting", "Features require Power-Ups"],
+    "score": 8.2,
+    "affiliateUrl": "#",
+    "logo": "/logos/trello.svg"
+  },
+  {
+    "slug": "clickup",
+    "name": "ClickUp",
+    "description": "All-in-one productivity platform replacing multiple tools for project management and docs.",
+    "category": "project-management",
+    "pricing": [
+      { "tier": "Free", "price": "$0/mo", "features": ["Unlimited tasks", "Collaborative docs", "Whiteboards", "100MB storage"] },
+      { "tier": "Unlimited", "price": "$7/member/mo", "features": ["Everything in Free", "Unlimited storage", "Integrations", "Dashboards"] },
+      { "tier": "Business", "price": "$12/member/mo", "features": ["Everything in Unlimited", "Timelines", "Mind maps", "Goal folders"] },
+      { "tier": "Enterprise", "price": "Custom", "features": ["Everything in Business", "White labeling", "Advanced permissions", "API access"] }
+    ],
+    "features": ["Task Management", "Docs", "Whiteboards", "Goals", "Time Tracking", "Dashboards", "Automations", "Mind Maps"],
+    "pros": ["Feature-rich at low price", "Replaces many tools", "Great free tier", "Constant updates"],
+    "cons": ["Can be overwhelming", "Occasional performance issues", "Mobile app needs improvement"],
+    "score": 8.6,
+    "affiliateUrl": "#",
+    "logo": "/logos/clickup.svg"
+  },
+  {
+    "slug": "freshbooks",
+    "name": "FreshBooks",
+    "description": "Cloud accounting and invoicing software built for small business owners and freelancers.",
+    "category": "invoicing",
+    "pricing": [
+      { "tier": "Lite", "price": "$17/mo", "features": ["5 billable clients", "Unlimited invoices", "Expense tracking"] },
+      { "tier": "Plus", "price": "$30/mo", "features": ["50 billable clients", "Proposals", "Recurring billing"] },
+      { "tier": "Premium", "price": "$55/mo", "features": ["Unlimited clients", "Project profitability", "Email customization"] },
+      { "tier": "Select", "price": "Custom", "features": ["Everything in Premium", "Dedicated account manager", "Custom onboarding"] }
+    ],
+    "features": ["Invoicing", "Expense Tracking", "Time Tracking", "Online Payments", "Proposals", "Recurring Billing", "Financial Reports", "Mobile App"],
+    "pros": ["Beautiful invoice templates", "Easy to use", "Great time tracking", "Excellent mobile app"],
+    "cons": ["Limited clients on lower tiers", "No payroll", "Gets expensive with add-ons"],
+    "score": 8.8,
+    "affiliateUrl": "#",
+    "logo": "/logos/freshbooks.svg"
+  },
+  {
+    "slug": "invoice-ninja",
+    "name": "Invoice Ninja",
+    "description": "Free, open-source invoicing platform with powerful features for freelancers and businesses.",
+    "category": "invoicing",
+    "pricing": [
+      { "tier": "Free", "price": "$0/mo", "features": ["Unlimited invoices", "4 templates", "Auto-billing"] },
+      { "tier": "Ninja Pro", "price": "$10/mo", "features": ["Everything in Free", "10+ templates", "Remove branding", "Auto-reminders"] },
+      { "tier": "Enterprise", "price": "$14/mo", "features": ["Everything in Pro", "Multiple companies", "Priority support"] }
+    ],
+    "features": ["Invoicing", "Proposals", "Recurring Invoices", "Online Payments", "Expense Tracking", "Time Tracking", "Client Portal", "API Access"],
+    "pros": ["Free tier is very generous", "Open source", "Self-hosting option", "Good API"],
+    "cons": ["Interface feels basic", "Limited integrations", "Smaller community"],
+    "score": 8.0,
+    "affiliateUrl": "#",
+    "logo": "/logos/invoice-ninja.svg"
+  },
+  {
+    "slug": "wave",
+    "name": "Wave",
+    "description": "Free financial software for small businesses with invoicing, accounting, and receipt scanning.",
+    "category": "invoicing",
+    "pricing": [
+      { "tier": "Free", "price": "$0/mo", "features": ["Invoicing", "Accounting", "Receipt scanning", "Financial reporting"] },
+      { "tier": "Pro", "price": "$16/mo", "features": ["Everything in Free", "Recurring billing", "Bank payments", "Priority support"] }
+    ],
+    "features": ["Invoicing", "Accounting", "Receipt Scanning", "Financial Reports", "Bank Connections", "Payroll Add-on", "Mobile Receipts", "Multi-currency"],
+    "pros": ["Completely free core features", "Built-in accounting", "Easy to use", "Receipt scanning"],
+    "cons": ["Limited integrations", "No inventory management", "US and Canada focused"],
+    "score": 8.1,
+    "affiliateUrl": "#",
+    "logo": "/logos/wave.svg"
+  },
+  {
+    "slug": "mailchimp",
+    "name": "Mailchimp",
+    "description": "Leading email marketing and automation platform with landing pages and audience management.",
+    "category": "email-marketing",
+    "pricing": [
+      { "tier": "Free", "price": "$0/mo", "features": ["500 contacts", "1,000 sends/month", "Email builder", "Basic reporting"] },
+      { "tier": "Essentials", "price": "$13/mo", "features": ["5,000 contacts", "Email scheduling", "A/B testing", "24/7 support"] },
+      { "tier": "Standard", "price": "$20/mo", "features": ["6,000 contacts", "Automations", "Retargeting ads", "Custom templates"] },
+      { "tier": "Premium", "price": "$350/mo", "features": ["10,000+ contacts", "Advanced segmentation", "Multivariate testing", "Phone support"] }
+    ],
+    "features": ["Email Builder", "Automation Workflows", "Audience Segmentation", "A/B Testing", "Landing Pages", "Social Posting", "Analytics", "Integrations"],
+    "pros": ["Easy drag-and-drop builder", "Good free tier", "Excellent analytics", "Huge template library"],
+    "cons": ["Gets expensive with growth", "Limited automation on lower tiers", "Contact-based pricing adds up"],
+    "score": 8.5,
+    "affiliateUrl": "#",
+    "logo": "/logos/mailchimp.svg"
+  },
+  {
+    "slug": "convertkit",
+    "name": "Kit (ConvertKit)",
+    "description": "Email marketing platform built for creators, bloggers, and online entrepreneurs.",
+    "category": "email-marketing",
+    "pricing": [
+      { "tier": "Newsletter", "price": "$0/mo", "features": ["1,000 subscribers", "Unlimited broadcasts", "Landing pages"] },
+      { "tier": "Creator", "price": "$25/mo", "features": ["1,000 subscribers", "Automations", "Third-party integrations", "No branding"] },
+      { "tier": "Creator Pro", "price": "$50/mo", "features": ["1,000 subscribers", "Newsletter referrals", "Subscriber scoring", "Advanced reporting"] }
+    ],
+    "features": ["Visual Automations", "Landing Pages", "Email Sequences", "Subscriber Tagging", "Commerce", "Broadcasts", "RSS Campaigns", "Integrations"],
+    "pros": ["Built for creators", "Powerful automations", "Clean interface", "Great deliverability"],
+    "cons": ["Limited design options", "No drag-and-drop email builder", "Pricey for large lists"],
+    "score": 8.6,
+    "affiliateUrl": "#",
+    "logo": "/logos/convertkit.svg"
+  },
+  {
+    "slug": "constant-contact",
+    "name": "Constant Contact",
+    "description": "Email marketing and digital marketing platform with event management and social tools.",
+    "category": "email-marketing",
+    "pricing": [
+      { "tier": "Lite", "price": "$12/mo", "features": ["500 contacts", "10x contact email sends", "Drag & drop editor"] },
+      { "tier": "Standard", "price": "$35/mo", "features": ["3x Lite sends", "A/B testing", "Contact segmentation", "Social posting"] },
+      { "tier": "Premium", "price": "$80/mo", "features": ["12x Lite sends", "Advanced automations", "Custom automations", "Revenue reporting"] }
+    ],
+    "features": ["Email Templates", "Contact Management", "Social Media Integration", "Event Management", "Surveys & Polls", "Automations", "Reporting", "List Segmentation"],
+    "pros": ["Easy for beginners", "Event management tools", "Good deliverability", "Strong support"],
+    "cons": ["Dated template designs", "Limited automation", "Higher price for features offered"],
+    "score": 7.8,
+    "affiliateUrl": "#",
+    "logo": "/logos/constant-contact.svg"
+  },
+  {
+    "slug": "quickbooks",
+    "name": "QuickBooks Online",
+    "description": "The most popular small business accounting software with invoicing, payroll, and tax tools.",
+    "category": "accounting",
+    "pricing": [
+      { "tier": "Simple Start", "price": "$30/mo", "features": ["Income & expense tracking", "Invoicing", "Tax deductions", "Receipt capture"] },
+      { "tier": "Essentials", "price": "$60/mo", "features": ["Everything in Simple Start", "Bill management", "Multi-currency", "3 users"] },
+      { "tier": "Plus", "price": "$90/mo", "features": ["Everything in Essentials", "Inventory tracking", "Project profitability", "5 users"] },
+      { "tier": "Advanced", "price": "$200/mo", "features": ["Everything in Plus", "Business analytics", "Batch invoicing", "25 users"] }
+    ],
+    "features": ["Bookkeeping", "Invoicing", "Expense Tracking", "Tax Preparation", "Payroll", "Inventory", "Bank Connections", "Financial Reports"],
+    "pros": ["Industry standard", "Huge accountant network", "Excellent integrations", "Strong mobile app"],
+    "cons": ["Expensive", "Can be complex", "Frequent price increases"],
+    "score": 8.9,
+    "affiliateUrl": "#",
+    "logo": "/logos/quickbooks.svg"
+  },
+  {
+    "slug": "xero",
+    "name": "Xero",
+    "description": "Cloud-based accounting software with beautiful interface and strong multi-currency support.",
+    "category": "accounting",
+    "pricing": [
+      { "tier": "Starter", "price": "$15/mo", "features": ["20 invoices/month", "5 bills", "Bank reconciliation"] },
+      { "tier": "Standard", "price": "$42/mo", "features": ["Unlimited invoices", "Unlimited bills", "Bulk reconciliation"] },
+      { "tier": "Premium", "price": "$78/mo", "features": ["Everything in Standard", "Multi-currency", "Expense claims", "Project tracking"] }
+    ],
+    "features": ["Bank Reconciliation", "Invoicing", "Bill Pay", "Expense Claims", "Financial Reports", "Multi-currency", "Payroll", "Project Tracking"],
+    "pros": ["Beautiful interface", "Unlimited users on all plans", "Great multi-currency", "Strong API"],
+    "cons": ["Limited invoices on starter plan", "US payroll is an add-on", "Fewer integrations in US"],
+    "score": 8.7,
+    "affiliateUrl": "#",
+    "logo": "/logos/xero.svg"
+  },
+  {
+    "slug": "sage",
+    "name": "Sage Business Cloud",
+    "description": "Enterprise-ready accounting and financial management for growing and mid-size businesses.",
+    "category": "accounting",
+    "pricing": [
+      { "tier": "Accounting Start", "price": "$10/mo", "features": ["Cashflow management", "Invoicing", "Bank feeds"] },
+      { "tier": "Accounting", "price": "$25/mo", "features": ["Everything in Start", "Quotes & estimates", "Purchase invoices", "Cash flow forecasts"] },
+      { "tier": "Intacct", "price": "Custom", "features": ["Multi-entity", "Advanced reporting", "Revenue recognition", "Project accounting"] }
+    ],
+    "features": ["Invoicing", "Bank Feeds", "Cash Flow Forecasts", "VAT/Tax Management", "Purchase Orders", "Financial Reports", "Multi-company", "Compliance"],
+    "pros": ["Great for compliance", "Multi-entity support", "Good for growing businesses", "Strong UK/EU presence"],
+    "cons": ["Dated interface", "Complex navigation", "Add-ons increase cost"],
+    "score": 7.9,
+    "affiliateUrl": "#",
+    "logo": "/logos/sage.svg"
+  }
+]
