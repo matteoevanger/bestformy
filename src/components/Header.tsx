@@ -20,6 +20,12 @@ export default function Header() {
               </Link>
             ))}
             <Link
+              href="/blog"
+              className="hover:text-accent-400 transition-colors"
+            >
+              Blog
+            </Link>
+            <Link
               href="/about"
               className="hover:text-accent-400 transition-colors"
             >
