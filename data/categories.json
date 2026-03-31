@@ -23,5 +23,30 @@
     "slug": "accounting",
     "name": "Accounting",
     "description": "Financial management software for bookkeeping, expense tracking, and tax preparation."
+  },
+  {
+    "slug": "scheduling",
+    "name": "Scheduling & Booking",
+    "description": "Appointment scheduling and online booking software for service businesses."
+  },
+  {
+    "slug": "field-service",
+    "name": "Field Service Management",
+    "description": "Software to manage field teams, dispatch jobs, and track work orders in the field."
+  },
+  {
+    "slug": "social-media",
+    "name": "Social Media Management",
+    "description": "Tools to schedule posts, manage accounts, and analyze social media performance."
+  },
+  {
+    "slug": "website-builder",
+    "name": "Website Builder",
+    "description": "Drag-and-drop platforms to build professional websites without coding."
+  },
+  {
+    "slug": "payroll",
+    "name": "Payroll",
+    "description": "Payroll processing software for running payroll, tax filings, and employee benefits."
   }
 ]

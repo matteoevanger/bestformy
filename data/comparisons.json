@@ -126,5 +126,85 @@
       { "feature": "Mobile App", "toolA": 8, "toolB": 7 },
       { "feature": "Support", "toolA": 8, "toolB": 6 }
     ]
+  },
+  {
+    "slug": "calendly-vs-acuity",
+    "toolA": "calendly",
+    "toolB": "acuity-scheduling",
+    "verdict": "Calendly is best for professionals who want dead-simple meeting scheduling with a polished UX, while Acuity Scheduling is better for service businesses needing custom intake forms and payment collection.",
+    "featureComparison": [
+      { "feature": "Ease of Use", "toolA": 10, "toolB": 7 },
+      { "feature": "Customization", "toolA": 6, "toolB": 9 },
+      { "feature": "Payment Processing", "toolA": 7, "toolB": 9 },
+      { "feature": "Intake Forms", "toolA": 5, "toolB": 10 },
+      { "feature": "Free Tier", "toolA": 8, "toolB": 0 },
+      { "feature": "Integrations", "toolA": 9, "toolB": 7 },
+      { "feature": "Team Features", "toolA": 9, "toolB": 7 },
+      { "feature": "HIPAA Compliance", "toolA": 0, "toolB": 9 }
+    ]
+  },
+  {
+    "slug": "servicetitan-vs-jobber",
+    "toolA": "servicetitan",
+    "toolB": "jobber",
+    "verdict": "ServiceTitan is the enterprise choice for large home service companies needing advanced dispatching and reporting, while Jobber is ideal for small service businesses wanting simplicity at a lower price.",
+    "featureComparison": [
+      { "feature": "Ease of Use", "toolA": 6, "toolB": 9 },
+      { "feature": "Dispatching", "toolA": 10, "toolB": 7 },
+      { "feature": "Reporting", "toolA": 10, "toolB": 6 },
+      { "feature": "Marketing Tools", "toolA": 9, "toolB": 4 },
+      { "feature": "Value for Money", "toolA": 5, "toolB": 9 },
+      { "feature": "Mobile App", "toolA": 8, "toolB": 9 },
+      { "feature": "Client Communication", "toolA": 8, "toolB": 9 },
+      { "feature": "Setup Speed", "toolA": 4, "toolB": 9 }
+    ]
+  },
+  {
+    "slug": "hootsuite-vs-buffer",
+    "toolA": "hootsuite",
+    "toolB": "buffer",
+    "verdict": "Hootsuite is best for teams and agencies managing many accounts with advanced analytics, while Buffer wins on simplicity and affordability for small businesses and solo creators.",
+    "featureComparison": [
+      { "feature": "Ease of Use", "toolA": 7, "toolB": 10 },
+      { "feature": "Analytics", "toolA": 9, "toolB": 7 },
+      { "feature": "Social Listening", "toolA": 9, "toolB": 0 },
+      { "feature": "Team Features", "toolA": 9, "toolB": 7 },
+      { "feature": "Value for Money", "toolA": 5, "toolB": 9 },
+      { "feature": "Free Tier", "toolA": 0, "toolB": 8 },
+      { "feature": "Platform Support", "toolA": 9, "toolB": 7 },
+      { "feature": "Content Calendar", "toolA": 9, "toolB": 8 }
+    ]
+  },
+  {
+    "slug": "squarespace-vs-wix",
+    "toolA": "squarespace",
+    "toolB": "wix",
+    "verdict": "Squarespace delivers superior design quality and is ideal for creatives and portfolios, while Wix offers more flexibility and a free tier that makes it easier to get started.",
+    "featureComparison": [
+      { "feature": "Design Quality", "toolA": 10, "toolB": 8 },
+      { "feature": "Ease of Use", "toolA": 8, "toolB": 9 },
+      { "feature": "Flexibility", "toolA": 6, "toolB": 9 },
+      { "feature": "E-commerce", "toolA": 9, "toolB": 8 },
+      { "feature": "App Marketplace", "toolA": 5, "toolB": 9 },
+      { "feature": "Free Tier", "toolA": 0, "toolB": 7 },
+      { "feature": "SEO Tools", "toolA": 8, "toolB": 8 },
+      { "feature": "Blogging", "toolA": 9, "toolB": 7 }
+    ]
+  },
+  {
+    "slug": "gusto-vs-adp",
+    "toolA": "gusto",
+    "toolB": "adp-run",
+    "verdict": "Gusto is the best choice for small businesses wanting modern, easy-to-use payroll with transparent pricing, while ADP Run offers enterprise-grade compliance and scalability for growing companies.",
+    "featureComparison": [
+      { "feature": "Ease of Use", "toolA": 10, "toolB": 7 },
+      { "feature": "Pricing Transparency", "toolA": 9, "toolB": 3 },
+      { "feature": "Benefits Administration", "toolA": 9, "toolB": 8 },
+      { "feature": "Compliance Tools", "toolA": 7, "toolB": 10 },
+      { "feature": "Scalability", "toolA": 6, "toolB": 10 },
+      { "feature": "Employee Self-Service", "toolA": 9, "toolB": 8 },
+      { "feature": "Mobile App", "toolA": 7, "toolB": 8 },
+      { "feature": "Setup Speed", "toolA": 9, "toolB": 6 }
+    ]
   }
 ]

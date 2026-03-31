@@ -297,5 +297,265 @@
     "score": 7.9,
     "affiliateUrl": "#",
     "logo": "/logos/sage.svg"
+  },
+  {
+    "slug": "calendly",
+    "name": "Calendly",
+    "description": "The leading scheduling platform that eliminates back-and-forth emails for booking meetings.",
+    "category": "scheduling",
+    "pricing": [
+      { "tier": "Free", "price": "$0/mo", "features": ["1 event type", "Calendar connection", "Booking page"] },
+      { "tier": "Standard", "price": "$10/seat/mo", "features": ["Unlimited event types", "Group events", "Workflows", "Integrations"] },
+      { "tier": "Teams", "price": "$16/seat/mo", "features": ["Everything in Standard", "Round robin", "Admin management", "Salesforce integration"] },
+      { "tier": "Enterprise", "price": "Custom", "features": ["Everything in Teams", "SSO", "Advanced security", "Dedicated support"] }
+    ],
+    "features": ["Scheduling Links", "Calendar Sync", "Group Events", "Round Robin", "Workflows & Reminders", "Payment Collection", "Embeddable Widget", "Integrations"],
+    "pros": ["Extremely easy to use", "Great free tier", "Polished user experience", "Strong integrations"],
+    "cons": ["Limited customization on free plan", "Can get expensive per seat", "No built-in video conferencing"],
+    "score": 9.1,
+    "affiliateUrl": "#",
+    "logo": "/logos/calendly.svg"
+  },
+  {
+    "slug": "acuity-scheduling",
+    "name": "Acuity Scheduling",
+    "description": "Customizable appointment scheduling software by Squarespace for service-based businesses.",
+    "category": "scheduling",
+    "pricing": [
+      { "tier": "Emerging", "price": "$16/mo", "features": ["1 staff", "Unlimited appointments", "Self-scheduling", "Customizable intake forms"] },
+      { "tier": "Growing", "price": "$27/mo", "features": ["6 staff", "Text reminders", "Subscriptions", "Gift certificates"] },
+      { "tier": "Powerhouse", "price": "$49/mo", "features": ["36 staff", "Multiple time zones", "Custom API", "HIPAA compliance"] }
+    ],
+    "features": ["Online Booking", "Custom Intake Forms", "Payment Processing", "Automated Reminders", "Package & Subscription Billing", "Gift Certificates", "Calendar Sync", "Embeddable Scheduler"],
+    "pros": ["Highly customizable forms", "HIPAA-compliant option", "Strong payment features", "Great for service businesses"],
+    "cons": ["No free tier", "Interface feels dated", "Limited marketing tools"],
+    "score": 8.5,
+    "affiliateUrl": "#",
+    "logo": "/logos/acuity-scheduling.svg"
+  },
+  {
+    "slug": "square-appointments",
+    "name": "Square Appointments",
+    "description": "Free appointment scheduling software with built-in payment processing by Square.",
+    "category": "scheduling",
+    "pricing": [
+      { "tier": "Free", "price": "$0/mo", "features": ["1 staff", "Online booking", "Automated reminders", "Square POS integration"] },
+      { "tier": "Plus", "price": "$29/mo", "features": ["Unlimited staff", "No-show protection", "Google calendar sync", "Multiple locations"] },
+      { "tier": "Premium", "price": "$69/mo", "features": ["Everything in Plus", "Resource management", "Advanced reporting", "Priority support"] }
+    ],
+    "features": ["Online Booking", "POS Integration", "Automated Reminders", "No-Show Protection", "Staff Management", "Client Profiles", "Invoicing", "Mobile App"],
+    "pros": ["Free for solo users", "Seamless Square payments", "Easy setup", "Great mobile app"],
+    "cons": ["Tied to Square ecosystem", "Limited customization", "Basic reporting on free tier"],
+    "score": 8.3,
+    "affiliateUrl": "#",
+    "logo": "/logos/square-appointments.svg"
+  },
+  {
+    "slug": "servicetitan",
+    "name": "ServiceTitan",
+    "description": "All-in-one field service management platform built for residential and commercial contractors.",
+    "category": "field-service",
+    "pricing": [
+      { "tier": "Starter", "price": "Custom", "features": ["Dispatching", "Invoicing", "Call booking", "Mobile app"] },
+      { "tier": "Essentials", "price": "Custom", "features": ["Everything in Starter", "Marketing tools", "Membership management", "Reporting"] },
+      { "tier": "The Works", "price": "Custom", "features": ["Everything in Essentials", "Advanced reporting", "Payroll integration", "Phone integration"] }
+    ],
+    "features": ["Dispatching", "Call Booking", "Invoicing", "Estimates", "Marketing Automation", "Membership Management", "Reporting & Analytics", "Mobile App"],
+    "pros": ["Industry-leading for home services", "Powerful dispatching", "Excellent reporting", "Strong marketing tools"],
+    "cons": ["Expensive", "Steep learning curve", "Long implementation time"],
+    "score": 9.0,
+    "affiliateUrl": "#",
+    "logo": "/logos/servicetitan.svg"
+  },
+  {
+    "slug": "jobber",
+    "name": "Jobber",
+    "description": "Field service software designed for small home service businesses to quote, schedule, and invoice.",
+    "category": "field-service",
+    "pricing": [
+      { "tier": "Core", "price": "$49/mo", "features": ["Quoting", "Invoicing", "Scheduling", "CRM", "1 user"] },
+      { "tier": "Connect", "price": "$129/mo", "features": ["Everything in Core", "Automated reminders", "Online booking", "Up to 5 users"] },
+      { "tier": "Grow", "price": "$249/mo", "features": ["Everything in Connect", "Quote follow-ups", "Job costing", "Up to 15 users"] }
+    ],
+    "features": ["Quoting & Invoicing", "Scheduling & Dispatching", "Client Manager", "Online Booking", "GPS Tracking", "Automated Follow-ups", "Payment Processing", "Mobile App"],
+    "pros": ["Very easy to learn", "Great client communication", "Clean mobile app", "Affordable for small teams"],
+    "cons": ["Limited users per plan", "Basic reporting", "No built-in payroll"],
+    "score": 8.7,
+    "affiliateUrl": "#",
+    "logo": "/logos/jobber.svg"
+  },
+  {
+    "slug": "housecall-pro",
+    "name": "Housecall Pro",
+    "description": "Home service business management software with scheduling, dispatching, and payment tools.",
+    "category": "field-service",
+    "pricing": [
+      { "tier": "Basic", "price": "$59/mo", "features": ["Scheduling", "Dispatching", "Invoicing", "Online booking", "1 user"] },
+      { "tier": "Essentials", "price": "$149/mo", "features": ["Everything in Basic", "QuickBooks integration", "Employee GPS", "Up to 5 users"] },
+      { "tier": "MAX", "price": "Custom", "features": ["Everything in Essentials", "Advanced reporting", "Open API", "Unlimited users"] }
+    ],
+    "features": ["Scheduling", "Dispatching", "Estimates & Invoicing", "Online Booking", "Customer Notifications", "GPS Tracking", "Instapay", "Review Management"],
+    "pros": ["Fast Instapay option", "Good customer notifications", "Easy to use", "Strong review management"],
+    "cons": ["Gets expensive with users", "Limited customization", "Reporting could be deeper"],
+    "score": 8.4,
+    "affiliateUrl": "#",
+    "logo": "/logos/housecall-pro.svg"
+  },
+  {
+    "slug": "hootsuite",
+    "name": "Hootsuite",
+    "description": "Enterprise social media management platform for scheduling, monitoring, and analytics.",
+    "category": "social-media",
+    "pricing": [
+      { "tier": "Professional", "price": "$99/mo", "features": ["1 user", "10 social accounts", "Unlimited posts", "Best time to publish"] },
+      { "tier": "Team", "price": "$249/mo", "features": ["3 users", "20 social accounts", "Team assignment", "Custom analytics"] },
+      { "tier": "Enterprise", "price": "Custom", "features": ["5+ users", "50+ accounts", "Social listening", "Employee advocacy"] }
+    ],
+    "features": ["Post Scheduling", "Social Listening", "Analytics & Reporting", "Team Collaboration", "Content Calendar", "Ad Management", "Employee Advocacy", "App Integrations"],
+    "pros": ["Supports many platforms", "Strong analytics", "Good team features", "Social listening included"],
+    "cons": ["Expensive for small businesses", "Interface can feel cluttered", "Free plan was removed"],
+    "score": 8.3,
+    "affiliateUrl": "#",
+    "logo": "/logos/hootsuite.svg"
+  },
+  {
+    "slug": "buffer",
+    "name": "Buffer",
+    "description": "Simple, intuitive social media scheduling and analytics tool for small businesses and creators.",
+    "category": "social-media",
+    "pricing": [
+      { "tier": "Free", "price": "$0/mo", "features": ["3 channels", "10 scheduled posts per channel", "Landing page builder"] },
+      { "tier": "Essentials", "price": "$6/channel/mo", "features": ["Unlimited posts", "Engagement tools", "Analytics", "Planning & collaboration"] },
+      { "tier": "Team", "price": "$12/channel/mo", "features": ["Everything in Essentials", "Unlimited team members", "Draft collaboration", "Agency features"] }
+    ],
+    "features": ["Post Scheduling", "Analytics", "Engagement Tools", "Landing Page Builder", "AI Assistant", "Approval Workflows", "Start Page", "Multi-platform Support"],
+    "pros": ["Very affordable", "Clean, simple interface", "Good free tier", "Great for small teams"],
+    "cons": ["Limited analytics on free plan", "No social listening", "Fewer platforms than competitors"],
+    "score": 8.5,
+    "affiliateUrl": "#",
+    "logo": "/logos/buffer.svg"
+  },
+  {
+    "slug": "sprout-social",
+    "name": "Sprout Social",
+    "description": "Premium social media management and intelligence platform for brands and agencies.",
+    "category": "social-media",
+    "pricing": [
+      { "tier": "Standard", "price": "$249/seat/mo", "features": ["5 profiles", "All-in-one inbox", "Publishing & scheduling", "Review management"] },
+      { "tier": "Professional", "price": "$399/seat/mo", "features": ["Unlimited profiles", "Competitive reports", "Custom workflows", "Sentiment analysis"] },
+      { "tier": "Advanced", "price": "$499/seat/mo", "features": ["Everything in Professional", "Digital asset library", "Chatbots", "Automated link tracking"] }
+    ],
+    "features": ["Smart Inbox", "Social Listening", "Publishing & Scheduling", "Analytics & Reporting", "CRM Features", "Chatbots", "Review Management", "Employee Advocacy"],
+    "pros": ["Best-in-class analytics", "Excellent social listening", "Beautiful interface", "Strong CRM features"],
+    "cons": ["Very expensive", "Per-seat pricing adds up quickly", "Overkill for small businesses"],
+    "score": 8.8,
+    "affiliateUrl": "#",
+    "logo": "/logos/sprout-social.svg"
+  },
+  {
+    "slug": "squarespace",
+    "name": "Squarespace",
+    "description": "Award-winning website builder with stunning templates and built-in e-commerce features.",
+    "category": "website-builder",
+    "pricing": [
+      { "tier": "Personal", "price": "$16/mo", "features": ["Free custom domain", "SSL security", "Unlimited bandwidth", "Basic analytics"] },
+      { "tier": "Business", "price": "$23/mo", "features": ["Everything in Personal", "E-commerce", "Advanced analytics", "Professional email"] },
+      { "tier": "Commerce Basic", "price": "$27/mo", "features": ["Everything in Business", "No transaction fees", "Point of sale", "Customer accounts"] },
+      { "tier": "Commerce Advanced", "price": "$49/mo", "features": ["Everything in Basic", "Abandoned cart recovery", "Advanced discounts", "Commerce APIs"] }
+    ],
+    "features": ["Drag-and-Drop Editor", "Designer Templates", "E-commerce", "Blogging", "Analytics", "SEO Tools", "Custom Domains", "Mobile-Responsive Design"],
+    "pros": ["Stunning design templates", "Easy to use", "Great for portfolios", "Strong e-commerce"],
+    "cons": ["Limited third-party integrations", "No free tier", "Less flexible than WordPress"],
+    "score": 8.8,
+    "affiliateUrl": "#",
+    "logo": "/logos/squarespace.svg"
+  },
+  {
+    "slug": "wix",
+    "name": "Wix",
+    "description": "Versatile website builder with AI-powered design, app marketplace, and built-in marketing tools.",
+    "category": "website-builder",
+    "pricing": [
+      { "tier": "Free", "price": "$0/mo", "features": ["Wix branding", "500MB storage", "Basic features"] },
+      { "tier": "Light", "price": "$17/mo", "features": ["Custom domain", "Remove branding", "2GB storage"] },
+      { "tier": "Core", "price": "$29/mo", "features": ["Everything in Light", "Online payments", "50GB storage", "Analytics"] },
+      { "tier": "Business", "price": "$36/mo", "features": ["Everything in Core", "100GB storage", "Subscriptions", "Automated sales tax"] }
+    ],
+    "features": ["AI Website Builder", "Drag-and-Drop Editor", "App Marketplace", "E-commerce", "Blogging", "SEO Tools", "Email Marketing", "Mobile Editor"],
+    "pros": ["Very flexible editor", "Huge app marketplace", "AI site generation", "Good free tier"],
+    "cons": ["Can't switch templates after launch", "Wix branding on free plan", "Site speed can vary"],
+    "score": 8.5,
+    "affiliateUrl": "#",
+    "logo": "/logos/wix.svg"
+  },
+  {
+    "slug": "wordpress-com",
+    "name": "WordPress.com",
+    "description": "Managed WordPress hosting platform with thousands of themes and plugins for any website.",
+    "category": "website-builder",
+    "pricing": [
+      { "tier": "Free", "price": "$0/mo", "features": ["WordPress.com subdomain", "1GB storage", "Basic themes"] },
+      { "tier": "Personal", "price": "$4/mo", "features": ["Custom domain", "6GB storage", "Remove ads", "Email support"] },
+      { "tier": "Premium", "price": "$8/mo", "features": ["Everything in Personal", "13GB storage", "Advanced design", "Google Analytics"] },
+      { "tier": "Business", "price": "$25/mo", "features": ["Everything in Premium", "50GB storage", "Plugins", "SFTP & SSH access"] }
+    ],
+    "features": ["Theme Library", "Plugin Ecosystem", "Blogging", "E-commerce via WooCommerce", "SEO Tools", "Custom Code", "Analytics", "Managed Hosting"],
+    "pros": ["Massive plugin ecosystem", "Most flexible platform", "Great for blogging", "Affordable entry price"],
+    "cons": ["Steeper learning curve", "Plugins needed for basic features", "Maintenance required"],
+    "score": 8.4,
+    "affiliateUrl": "#",
+    "logo": "/logos/wordpress-com.svg"
+  },
+  {
+    "slug": "gusto",
+    "name": "Gusto",
+    "description": "Modern payroll and HR platform built for small businesses with benefits and compliance tools.",
+    "category": "payroll",
+    "pricing": [
+      { "tier": "Simple", "price": "$40/mo + $6/person", "features": ["Full-service payroll", "Employee self-service", "Health benefits", "2-day direct deposit"] },
+      { "tier": "Plus", "price": "$80/mo + $12/person", "features": ["Everything in Simple", "Next-day deposit", "PTO management", "Time tracking"] },
+      { "tier": "Premium", "price": "Custom", "features": ["Everything in Plus", "Dedicated support", "Compliance alerts", "Performance reviews"] }
+    ],
+    "features": ["Automated Payroll", "Tax Filing", "Direct Deposit", "Benefits Administration", "Time Tracking", "PTO Management", "Employee Self-Service", "Compliance"],
+    "pros": ["Very easy to use", "Great employee self-service", "Excellent benefits integration", "Modern interface"],
+    "cons": ["Gets expensive per employee", "Limited HR tools on basic plan", "No mobile app for employers"],
+    "score": 9.0,
+    "affiliateUrl": "#",
+    "logo": "/logos/gusto.svg"
+  },
+  {
+    "slug": "adp-run",
+    "name": "ADP Run",
+    "description": "Payroll and HR solution from ADP designed for small businesses with 1-49 employees.",
+    "category": "payroll",
+    "pricing": [
+      { "tier": "Essential", "price": "Custom", "features": ["Payroll processing", "Tax filing", "Direct deposit", "New hire reporting"] },
+      { "tier": "Enhanced", "price": "Custom", "features": ["Everything in Essential", "Background checks", "SUI management", "ZipRecruiter posting"] },
+      { "tier": "Complete", "price": "Custom", "features": ["Everything in Enhanced", "HR help desk", "Employee handbook", "HR tracking"] },
+      { "tier": "HR Pro", "price": "Custom", "features": ["Everything in Complete", "HR guidance", "Training toolkits", "Employee discounts"] }
+    ],
+    "features": ["Payroll Processing", "Tax Filing & Compliance", "Direct Deposit", "Employee Self-Service", "New Hire Onboarding", "Benefits Administration", "Reporting", "Mobile App"],
+    "pros": ["Trusted brand with decades of experience", "Strong compliance tools", "Scalable as you grow", "Good mobile app"],
+    "cons": ["Pricing is not transparent", "Can be complex to set up", "Customer support varies"],
+    "score": 8.3,
+    "affiliateUrl": "#",
+    "logo": "/logos/adp-run.svg"
+  },
+  {
+    "slug": "paychex-flex",
+    "name": "Paychex Flex",
+    "description": "Scalable payroll and HR platform with flexible plans for businesses of all sizes.",
+    "category": "payroll",
+    "pricing": [
+      { "tier": "Essentials", "price": "Custom", "features": ["Payroll processing", "Tax administration", "Direct deposit", "New hire reporting"] },
+      { "tier": "Select", "price": "Custom", "features": ["Everything in Essentials", "Onboarding", "Garnishment services", "Financial wellness"] },
+      { "tier": "Pro", "price": "Custom", "features": ["Everything in Select", "HR administration", "Benefits admin", "Employee handbook"] }
+    ],
+    "features": ["Payroll Processing", "Tax Administration", "Time & Attendance", "Benefits Administration", "HR Services", "Onboarding", "Retirement Services", "Mobile App"],
+    "pros": ["Flexible plan options", "Strong retirement services", "Good for mid-size businesses", "24/7 support"],
+    "cons": ["Opaque pricing", "Setup fees possible", "Interface not as modern as Gusto"],
+    "score": 8.1,
+    "affiliateUrl": "#",
+    "logo": "/logos/paychex-flex.svg"
   }
 ]

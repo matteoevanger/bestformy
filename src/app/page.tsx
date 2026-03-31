@@ -9,6 +9,10 @@ export const metadata: Metadata = {
   alternates: { canonical: 'https://bestformy.com' },
 };
 
+const popularIndustries = industries.filter((ind) =>
+  ['landscaping', 'plumbing', 'hvac', 'dental', 'real-estate', 'cleaning', 'auto-repair', 'law-firm', 'construction', 'restaurants'].includes(ind.slug)
+);
+
 export default function Home() {
   return (
     <>
@@ -20,8 +24,8 @@ export default function Home() {
             Your Business
           </h1>
           <p className="text-xl text-primary-200 mb-8 max-w-2xl mx-auto">
-            Honest reviews and side-by-side comparisons of CRM, project
-            management, invoicing, and more — tailored to your industry.
+            Honest reviews and side-by-side comparisons of CRM, scheduling,
+            field service, social media, and more — tailored to your industry.
           </p>
           <div className="flex flex-wrap justify-center gap-3">
             {categories.map((cat) => (
@@ -46,7 +50,7 @@ export default function Home() {
           Find the best tools tailored to your specific industry.
         </p>
         <div className="grid grid-cols-2 md:grid-cols-5 gap-4">
-          {industries.map((ind) => (
+          {popularIndustries.map((ind) => (
             <Link
               key={ind.slug}
               href={`/best/crm/for/${ind.slug}`}
