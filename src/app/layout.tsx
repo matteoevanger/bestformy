@@ -18,6 +18,11 @@ export const metadata: Metadata = {
     type: 'website',
     locale: 'en_US',
     siteName: 'BestForMy',
+    images: [{ url: '/og-image.png', width: 1536, height: 1024 }],
+  },
+  twitter: {
+    card: 'summary_large_image',
+    images: ['/og-image.png'],
   },
   robots: {
     index: true,
