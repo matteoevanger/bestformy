@@ -31,7 +31,7 @@ export default function Home() {
             {categories.map((cat) => (
               <Link
                 key={cat.slug}
-                href={`/best/${cat.slug}/for/landscaping`}
+                href={`/best/${cat.slug}`}
                 className="px-5 py-2.5 bg-white/10 hover:bg-white/20 rounded-lg text-sm font-medium transition-colors"
               >
                 Best {cat.name}
@@ -51,18 +51,25 @@ export default function Home() {
         </p>
         <div className="grid grid-cols-2 md:grid-cols-5 gap-4">
           {popularIndustries.map((ind) => (
-            <Link
+            <div
               key={ind.slug}
-              href={`/best/crm/for/${ind.slug}`}
               className="bg-white dark:bg-gray-800 rounded-xl p-4 text-center shadow-sm border border-gray-200 dark:border-gray-700 hover:shadow-md hover:border-primary-300 transition-all"
             >
-              <span className="text-lg font-semibold text-gray-900 dark:text-white">
-                {ind.name}
-              </span>
-              <p className="text-xs text-gray-500 dark:text-gray-400 mt-1">
-                {categories.length} categories
-              </p>
-            </Link>
+              <Link href={`/best/crm/for/${ind.slug}`}>
+                <span className="text-lg font-semibold text-gray-900 dark:text-white block">
+                  {ind.name}
+                </span>
+                <p className="text-xs text-gray-500 dark:text-gray-400 mt-1">
+                  {categories.length} categories
+                </p>
+              </Link>
+              <Link
+                href={`/best/crm/for/${ind.slug}`}
+                className="inline-block mt-3 text-xs font-medium text-primary-600 dark:text-primary-300 hover:underline"
+              >
+                See CRM picks &rarr;
+              </Link>
+            </div>
           ))}
         </div>
       </section>

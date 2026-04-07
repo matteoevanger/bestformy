@@ -13,7 +13,7 @@ export default function Header() {
             {categories.map((cat) => (
               <Link
                 key={cat.slug}
-                href={`/best/${cat.slug}/for/landscaping`}
+                href={`/best/${cat.slug}`}
                 className="hover:text-accent-400 transition-colors"
               >
                 {cat.name}
