@@ -2,6 +2,7 @@ import type { Metadata } from 'next';
 import { notFound } from 'next/navigation';
 import Link from 'next/link';
 import { categories, industries, getCategoryBySlug } from '@/lib/data';
+import { getRelatedArticles } from '@/lib/relatedArticles';
 
 interface Props {
   params: { category: string };
@@ -41,6 +42,8 @@ export function generateMetadata({ params }: Props): Metadata {
 export default function CategoryHubPage({ params }: Props) {
   const category = getCategoryBySlug(params.category);
   if (!category) notFound();
+
+  const relatedArticles = getRelatedArticles(category.slug, undefined, 3);
 
   return (
     <>
@@ -104,6 +107,54 @@ export default function CategoryHubPage({ params }: Props) {
             ))}
           </div>
         </section>
+
+        {relatedArticles.length > 0 && (
+          <section className="mb-12">
+            <div className="flex items-center justify-between gap-4 mb-6 flex-wrap">
+              <div>
+                <h2 className="text-2xl font-bold text-gray-900 dark:text-white">
+                  Related Articles
+                </h2>
+                <p className="text-gray-500 dark:text-gray-400 mt-1 max-w-2xl">
+                  Deeper guides, comparisons, and buyer education for {category.name.toLowerCase()} software.
+                </p>
+              </div>
+              <Link
+                href="/blog"
+                className="text-sm font-medium text-primary-600 dark:text-primary-300 hover:underline"
+              >
+                View all articles →
+              </Link>
+            </div>
+
+            <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-4">
+              {relatedArticles.map((article) => (
+                <Link
+                  key={article.slug}
+                  href={`/blog/${article.slug}`}
+                  className="bg-white dark:bg-gray-800 rounded-xl p-5 shadow-sm border border-gray-200 dark:border-gray-700 hover:shadow-md hover:border-primary-300 transition-all"
+                >
+                  <time className="text-xs font-medium uppercase tracking-wide text-gray-500 dark:text-gray-400">
+                    {new Date(article.date).toLocaleDateString('en-US', {
+                      month: 'short',
+                      day: 'numeric',
+                      year: 'numeric',
+                    })}
+                  </time>
+                  <h3 className="text-lg font-semibold text-gray-900 dark:text-white mt-3 mb-2 leading-snug">
+                    {article.title}
+                  </h3>
+                  <p className="text-sm text-gray-600 dark:text-gray-300 line-clamp-3 mb-4">
+                    {article.excerpt}
+                  </p>
+                  <span className="text-sm font-medium text-primary-600 dark:text-primary-300">
+                    Read article →
+                  </span>
+                </Link>
+              ))}
+            </div>
+          </section>
+        )}
       </div>
 
       <script
