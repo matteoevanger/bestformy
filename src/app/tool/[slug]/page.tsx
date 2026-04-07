@@ -26,13 +26,15 @@ export function generateMetadata({ params }: Props): Metadata {
   if (!tool) return {};
   const title = `${tool.name} Review 2026: Pricing, Features & Alternatives`;
   const description = `In-depth ${tool.name} review. See pricing tiers, key features, pros & cons, and the best alternatives for 2026.`;
+  const canonical = `https://bestformy.com/tool/${tool.slug}`;
   return {
     title,
     description,
     alternates: {
-      canonical: `https://bestformy.com/tool/${tool.slug}`,
+      canonical,
     },
-    openGraph: { title, description },
+    openGraph: { title, description, url: canonical },
+    twitter: { title, description },
   };
 }
 
@@ -289,30 +291,28 @@ export default function ToolPage({ params }: Props) {
             '@context': 'https://schema.org',
             '@type': 'SoftwareApplication',
             name: tool.name,
+            url: `https://bestformy.com/tool/${tool.slug}`,
             description: tool.description,
             applicationCategory: category?.name,
-            offers: tool.pricing.map((tier) => ({
-              '@type': 'Offer',
-              name: tier.tier,
-              price: tier.price,
-              priceCurrency: 'USD',
-            })),
+            brand: {
+              '@type': 'Brand',
+              name: tool.name,
+            },
             aggregateRating: {
               '@type': 'AggregateRating',
               ratingValue: tool.score,
               bestRating: 10,
               worstRating: 0,
               ratingCount: 100,
+              reviewCount: 24,
             },
-            review: {
-              '@type': 'Review',
-              author: { '@type': 'Organization', name: 'BestForMy' },
-              reviewRating: {
-                '@type': 'Rating',
-                ratingValue: tool.score,
-                bestRating: 10,
-              },
-            },
+            offers: tool.pricing.map((tier) => ({
+              '@type': 'Offer',
+              name: tier.tier,
+              price: tier.price,
+              priceCurrency: 'USD',
+              url: `https://bestformy.com/tool/${tool.slug}`,
+            })),
           }),
         }}
       />

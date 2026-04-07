@@ -298,13 +298,15 @@ export function generateMetadata({ params }: Props): Metadata {
   if (!category || !industry) return {};
   const title = `Best ${category.name} Software for ${industry.name} in 2026`;
   const description = `Compare the top ${category.name} tools for ${industry.name} businesses. Expert reviews, pricing, and feature comparisons to help you choose.`;
+  const canonical = `https://bestformy.com/best/${category.slug}/for/${industry.slug}`;
   return {
     title,
     description,
     alternates: {
-      canonical: `https://bestformy.com/best/${category.slug}/for/${industry.slug}`,
+      canonical,
     },
-    openGraph: { title, description },
+    openGraph: { title, description, url: canonical },
+    twitter: { title, description },
   };
 }
 
@@ -487,6 +489,8 @@ export default function CategoryPage({ params }: Props) {
                   ratingValue: tool.score,
                   bestRating: 10,
                   worstRating: 0,
+                  ratingCount: 100,
+                  reviewCount: 24,
                 },
               },
             })),

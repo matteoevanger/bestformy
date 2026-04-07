@@ -28,9 +28,23 @@ export function generateMetadata({
 }): Metadata {
   const post = getPostBySlug(params.slug);
   if (!post) return {};
+  const canonical = `https://bestformy.com/blog/${post.slug}`;
   return {
     title: post.title,
     description: post.excerpt,
+    alternates: {
+      canonical,
+    },
+    openGraph: {
+      title: post.title,
+      description: post.excerpt,
+      url: canonical,
+      type: 'article',
+    },
+    twitter: {
+      title: post.title,
+      description: post.excerpt,
+    },
   };
 }
 

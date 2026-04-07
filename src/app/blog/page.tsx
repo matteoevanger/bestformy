@@ -6,6 +6,15 @@ export const metadata: Metadata = {
   title: 'Blog',
   description:
     'Expert guides, tips, and comparisons to help you find the best software for your business.',
+  alternates: {
+    canonical: 'https://bestformy.com/blog',
+  },
+  openGraph: {
+    title: 'Blog',
+    description:
+      'Expert guides, tips, and comparisons to help you find the best software for your business.',
+    url: 'https://bestformy.com/blog',
+  },
 };
 
 interface Post {
